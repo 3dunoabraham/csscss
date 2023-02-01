@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "css helper",
   "main": "index.css",
+  "repository": "https://github.com/3dunoabraham/csscss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
