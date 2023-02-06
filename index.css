@@ -480,6 +480,10 @@
 
 /* ------------------------------------------ FILTERS ------------------------------------------ */
 .invert { filter: invert(1); }.bright-1000 { filter: brightness(10); }
+.blur-1 {filter: blur(1px);}.blur-2 {filter: blur(2px);}.blur-3 {filter: blur(3px);}.blur-4 {filter: blur(4px);}
+.blur-5 {filter: blur(5px);}.blur-6 {filter: blur(6px);}.blur-7 {filter: blur(7px);}.blur-8 {filter: blur(8px);}
+.blur-9 {filter: blur(9px);}.blur-0 {filter: blur(0px);}.blur-11 {filter: blur(11px);}
+.blur-12 {filter: blur(12px);}.blur-13 {filter: blur(13px);}.blur-14 {filter: blur(14px);}.blur-15 {filter: blur(15px);}
 .scale-50 { transform: scale(0.5); }.scale-60 { transform: scale(0.6); }.scale-70 { transform: scale(0.7); }
 .scale-90 { transform: scale(0.9); }.scale-110 { transform: scale(1.1); }.scale-120 { transform: scale(1.2); }
 .scale-150 { transform: scale(1.5); }.scale-160 { transform: scale(1.6); }.scale-200 { transform: scale(2); }
@@ -636,6 +640,12 @@
 .spin-2 { animation: spin 2s;  animation-iteration-count: infinite }
 .spin-3 { animation: spin 3s;  animation-iteration-count: infinite }
 .spin-4 { animation: spin 4s;  animation-iteration-count: infinite }
+.spin-5 { animation: spin 5s;  animation-iteration-count: infinite }
+.spin-6 { animation: spin 6s;  animation-iteration-count: infinite }
+.spin-7 { animation: spin 7s;  animation-iteration-count: infinite }
+.spin-8 { animation: spin 8s;  animation-iteration-count: infinite }
+.spin-9 { animation: spin 9s;  animation-iteration-count: infinite }
+.spin-10 { animation: spin 10s;  animation-iteration-count: infinite }
 .spin-20 { animation: spin 20s;  animation-iteration-count: infinite }
 .spin-60 { animation: spin 60s;  animation-iteration-count: infinite }
 .spin-120 { animation: spin 120s;  animation-iteration-count: infinite }
