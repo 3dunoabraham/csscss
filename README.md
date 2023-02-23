@@ -2,10 +2,30 @@
 #### An easy and consistent utility-first CSS framework.
 
 ```bash
-npm install
+npm install csscss
+```
+or
+```html
+<link rel="stylesheet" href="https://unpkg.com/csscss@1.0.5/index.css">
 ```
 
+The CSSCSS package includes a set of CSS styles that provide the following features:
 The classes are organized into different categories based on their purpose.
+
+- A responsive grid system based on the Flexbox layout model.
+- Predefined classes for adding margins and paddings to elements.
+- A set of color classes for quickly applying background and text colors.
+- Several text styles for headings, paragraphs, and links.
+- Various button styles for creating different types of buttons.
+- A collection of utility classes for commonly used CSS properties.
+- Several animation classes for adding animations to elements, such as fading in/out, scaling, and rotating.
+- Overall, the CSSCSS package provides a comprehensive set of styles that can help simplify and speed up the process of building a website or web application.
+
+
+
+
+## Position
+* Classes for controlling the positioning of elements on the page, such as .pos-rel, .pos-abs, and .pos-fixed.
 
 POSITION: classes for controlling the positioning of elements on the page
 WIDTH & HEIGHT: classes for controlling the size of elements on the page
@@ -26,47 +46,32 @@ Some examples of the classes and what they do:
 .z-10: sets the z-index of an element to 10
 .z--1: sets the z-index of an element to -1
 .z--10: sets the z-index of an element to -10
-These classes can be used to create responsive layouts and apply styles to different elements on the page.
-Display
-hidden | none | block
-clickable | nopointer , noclick | nocursor
-​
+
+## Width & Height
+* Classes for controlling the size of elements on the page, such as .w-50, .w-100, and .w-100vw.
+* Classes for controlling the height of elements on the page, such as .h-100, .h-100-vh, and .h-50vh.
 ## Display
-flex | flex-center | flex-row | flex-column
-flex-wrap | flex-row-r | flex-column-r
-flex-between | flex-around | flex-1
-flex-align-start | flex-align-end | flex-align-center
-flex-justify-start | flex-justify-end | flex-justify-center
-flex-self-align-start | flex-self-align-end | flex-self-align-center
-
-
-# STRUCTURE
+* Classes for controlling the display property of elements, such as .hidden, .none, .block, and .flex.
+* Classes for controlling the flexbox layout of elements, such as .flex-center, .flex-row, and .flex-column.
+* Classes for controlling the alignment of flexbox elements, such as .flex-align-start, .flex-align-end, and .flex-align-center.
+* Classes for controlling the justification of flexbox elements, such as .flex-justify-start, .flex-justify-end, and .flex-justify-center.
+* Classes for controlling the self-alignment of flexbox elements, such as .flex-self-align-start, .flex-self-align-end, and .flex-self-align-center.
 ## Background
-Shape
-noborder
-border-l-? | border-r-? | border-t-? | border-b-? | (5,10,15,25,50,100p)
+* Classes for controlling the background of elements, such as .bg-red, .bg-blue, and .bg-green.
+* Classes for controlling the shape of elements, such as .rounded, .rounded-lg, and .circle.
+* Classes for controlling the border of elements, such as .border, .border-l-1, and .border-b-5.
 ## Text
-tx-xxxl | tx-xxl | tx-xl | tx-lg | tx-md | tx-sm | tx-xs
-tx-center | tx-end | tx-right | tx-start | tx-left
-​
-tx-ls-s-? | letter-s-? | (1-5,10,15,25)
-word-s-? | (1-5,10,15,25)
-​
-# UPDATE
-tx-bold | tx-italic
-nodeco | nowrap | linethrough | strikethrough
-Space
-w-100 | w-100-vw | v-50 | w-50vw
-h-100 | h-100-vh | h-50 | h-50vh
-ma-? | ml-? | mr-? | mt-? | mb-? | (0-8,100,200)
-pa-? | pl-? | pr-? | pt-? | pb-? | (0-8,100,200)
+* Classes for controlling the text properties of elements, such as .tx-lg, .tx-center, and .tx-bold.
+* Classes for controlling the spacing of text, such as .letter-s-2 and .word-s-3.
+* Classes for controlling the decoration of text, such as .nodeco, .nowrap, and .strikethrough.
+## Space
+* Classes for controlling the margin and padding of elements, such as .ma-3, .pt-4, and .pb-8.
 ## Animation
-hover-hover | hover-nhover | spin-spin | spin-nback
-shake-shake | shake-nback
-Filter
-opacity-? | opacity-hover-? | (5,10,25,50,75)
+* Classes for adding animations to elements, such as .hover-hover, .spin-spin, and .shake-shake.
+## Filter
+* Classes for controlling the opacity of elements, such as .opacity-50 and .opacity-hover-25.
 ## Media Query
-Basic
-Basic Range
-Basic Combo
-Advanced Range Combo
+* Classes for applying styles based on the viewport size, such as .sm, .md, and .lg.
+* Classes for applying styles based on a range of viewport sizes, such as .md-xl.
+* Classes for applying styles based on a combination of viewport sizes, such as .sm-md-only.
+* Advanced classes for applying styles based on complex combinations of viewport sizes.
