@@ -1,55 +1,75 @@
 # CSSCSS
-#### An easy and consistent utility-first CSS framework.
+#### Utility-first CSS framework.
 
+## Installation
+You can install CSSCSS using npm by running the following command:
 ```bash
-npm install
+npm install csscss
+```
+Alternatively, you can include the CSS file directly in your HTML using the following link:
+```html
+<link rel="stylesheet" href="https://unpkg.com/csscss@1.0.5/index.css">
 ```
 
-# CREATE
+## Features
+CSSCSS includes a wide range of utility classes that are organized into different categories based on their purpose. Here's an overview of what you can expect:
+- A responsive grid system based on the Flexbox layout model.
+- Predefined classes for adding margins and paddings to elements.
+- A set of color classes for quickly applying background and text colors.
+- Several text styles for headings, paragraphs, and links.
+- Various button styles for creating different types of buttons.
+- A collection of utility classes for commonly used CSS properties.
+- Several animation classes for adding animations to elements, such as fading in/out, scaling, and rotating.
+- Overall, the CSSCSS package provides a comprehensive set of styles that can help simplify and speed up the process of building a website or web application.
+
+
+
+
 ## Position
-pos-relative | pos-absolute | pos-fixed
-top-? | left-? | right-? | bottom-? | (0-5)
-z-? | (0-3,5,100,999)
-Display
-hidden | none | block
-clickable | nopointer , noclick | nocursor
-​
+Classes for controlling the positioning of elements on the page
+
+Some examples of the classes and what they do:
+* .pos-rel: sets the position of an element to relative
+* .pos-abs: sets the position of an element to absolute
+* .pos-fixed: sets the position of an element to fixed
+* .top-0: sets the top position of an element to 0
+* .left-0: sets the left position of an element to 0
+* .right-0: sets the right position of an element to 0
+* .bottom-0: sets the bottom position of an element to 0
+* .w-50: sets the width of an element to 50%
+* .w-100: sets the width of an element to 100%
+* .w-100vw: sets the width of an element to 100% of the viewport width
+* .w-50px: sets the width of an element to 50 pixels
+* .z-1: sets the z-index of an element to 1
+* .z-10: sets the z-index of an element to 10
+* .z--1: sets the z-index of an element to -1
+* .z--10: sets the z-index of an element to -10
+
+## Width & Height
+* size of elements on the page, such as .w-50, .w-100, and .w-100vw.
+* height of elements on the page, such as .h-100, .h-100-vh, and .h-50vh.
 ## Display
-flex | flex-center | flex-row | flex-column
-flex-wrap | flex-row-r | flex-column-r
-flex-between | flex-around | flex-1
-flex-align-start | flex-align-end | flex-align-center
-flex-justify-start | flex-justify-end | flex-justify-center
-flex-self-align-start | flex-self-align-end | flex-self-align-center
-
-
-# STRUCTURE
+* display property of elements, such as .hidden, .none, .block, and .flex.
+* flexbox layout of elements, such as .flex-center, .flex-row, and .flex-column.
+* alignment of flexbox elements, such as .flex-align-start, .flex-align-end, and .flex-align-center.
+* justification of flexbox elements, such as .flex-justify-start, .flex-justify-end, and .flex-justify-center.
+* self-alignment of flexbox elements, such as .flex-self-align-start, .flex-self-align-end, and .flex-self-align-center.
 ## Background
-Shape
-noborder
-border-l-? | border-r-? | border-t-? | border-b-? | (5,10,15,25,50,100p)
+* background of elements, such as .bg-red, .bg-blue, and .bg-green.
+* shape of elements, such as .rounded, .rounded-lg, and .circle.
+* border of elements, such as .border, .border-l-1, and .border-b-5.
 ## Text
-tx-xxxl | tx-xxl | tx-xl | tx-lg | tx-md | tx-sm | tx-xs
-tx-center | tx-end | tx-right | tx-start | tx-left
-​
-tx-ls-s-? | letter-s-? | (1-5,10,15,25)
-word-s-? | (1-5,10,15,25)
-​
-# UPDATE
-tx-bold | tx-italic
-nodeco | nowrap | linethrough | strikethrough
-Space
-w-100 | w-100-vw | v-50 | w-50vw
-h-100 | h-100-vh | h-50 | h-50vh
-ma-? | ml-? | mr-? | mt-? | mb-? | (0-8,100,200)
-pa-? | pl-? | pr-? | pt-? | pb-? | (0-8,100,200)
+* text properties of elements, such as .tx-lg, .tx-center, and .tx-bold.
+* spacing of text, such as .letter-s-2 and .word-s-3.
+* decoration of text, such as .nodeco, .nowrap, and .strikethrough.
+## Space
+* margin and padding of elements, such as .ma-3, .pt-4, and .pb-8.
 ## Animation
-hover-hover | hover-nhover | spin-spin | spin-nback
-shake-shake | shake-nback
-Filter
-opacity-? | opacity-hover-? | (5,10,25,50,75)
+* Classes for adding animations to elements, such as .hover-hover, .spin-spin, and .shake-shake.
+## Filter
+* opacity of elements, such as .opacity-50 and .opacity-hover-25.
 ## Media Query
-Basic
-Basic Range
-Basic Combo
-Advanced Range Combo
+* the viewport size, such as .sm, .md, and .lg.
+* a range of viewport sizes, such as .md-xl.
+* a combination of viewport sizes, such as .sm-md-only.
+* Advanced complex combinations of viewport sizes.
