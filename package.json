@@ -1,9 +1,10 @@
 {
   "name": "csscss",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "utility-first CSS framework",
   "main": "index.css",
-  "repository": "https://github.com/3dunoabraham/csscss",
+  "repository": "https://github.com/3dunoabraham/csscss/",
+  "homepage": "https://tresweb.vercel.app/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

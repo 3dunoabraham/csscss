@@ -319,6 +319,7 @@
 
 /* ------------------------------------------ BACKGROUND ------------------------------------------ */
 ._ddr { background: red; }._ddg { background: green; }._ddb { background: blue; }
+.bg-trans {background: transparent;}
 .bg-red-25 { background: #ff000044;} .bg-green-25 { background: #00FF0044;} .bg-blue-25 { background: #0000ff44;}
 .bg-red-50 { background: #ff000077;} .bg-green-50 { background: #00FF0077;} .bg-blue-50 { background: #0000ff77;}
 .bg-red-75 { background: #ff0000aa;} .bg-green-75 { background: #00FF00aa;} .bg-blue-75 { background: #0000ffaa;}
@@ -390,6 +391,7 @@
 
 
 /* ------------------------------------------ TEXT ------------------------------------------ */
+.tx-sans {font-family: 'Open Sans', sans-serif;}
 .tx-xxs {font-size: 0.35rem; } .tx-xs {font-size: 0.55rem; }.tx-xsm {font-size: 0.725rem; }.tx-sm {font-size: 0.845rem; }
 .tx-smd {font-size: 0.92rem; }.tx-md {font-size: 1.07rem; } .tx-mdl {font-size: 1.13rem; }.tx-lg {font-size: 1.4rem; }
 .tx-lgx {font-size: 1.68rem; }.tx-lx {font-size: 2.4rem; } .tx-xl {font-size: 3rem; }
@@ -411,6 +413,7 @@
 .word-s-5 {word-spacing: 5px; } .word-s-10 {word-spacing: 10px; } .word-s-20 {word-spacing: 20px; }
 .tx-italic {font-style: italic; }.tx-i {font-style: italic; }
 .tx-deco, .tx-deco *, .underline, .underline * { text-decoration: underline #777; }
+.tx.size-unset { font-size: unset;}
 .linethrough { text-decoration: line-through } .linethru { text-decoration: line-through }
 .nodeco { text-decoration: none ; } .nowrap {white-space: nowrap; }
 .ellipsis { text-overflow: ellipsis; }

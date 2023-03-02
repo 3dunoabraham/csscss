@@ -8,8 +8,10 @@ npm install csscss
 ```
 Alternatively, you can include the CSS file directly in your HTML using the following link:
 ```html
-<link rel="stylesheet" href="https://unpkg.com/csscss@1.0.5/index.css">
+<link rel="stylesheet" href="https://unpkg.com/csscss@latest/index.css">
 ```
+
+
 
 ## Features
 CSSCSS includes a wide range of utility classes that are organized into different categories based on their purpose. Here's an overview of what you can expect:
