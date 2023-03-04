@@ -31,11 +31,10 @@ CSSCSS includes a wide range of utility classes that are organized into differen
 Classes for controlling the positioning of elements on the page
 
 Some examples of the classes and what they do:
-* Position: sets the position of an element to relative. "pos-rel"
-  * ["rel","abs","fix","fixed"]
-* .pos-abs: sets the position of an element to absolute
-* .pos-fixed: sets the position of an element to fixed
-* .top-0: sets the top position of an element to 0
+* Position: "pos-rel" sets the position of an element to relative.
+  * Variations: ["rel","abs","fix","fixed"]
+* Edge Positioning: "top-0" and "top-25p" sets the top position of an element to 0 and 25% respectively.
+  * Variations: ["0","25p","50p","75p"]
 * .left-0: sets the left position of an element to 0
 * .right-0: sets the right position of an element to 0
 * .bottom-0: sets the bottom position of an element to 0
