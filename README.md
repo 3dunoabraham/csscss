@@ -4,8 +4,8 @@
 A collection of consistent CSS classes used for fast and efficient layout crafting directly into the HTML. The class names are intuitively designed to resemble CSS properties, making them easy to remember and use effectively.
 
 ## Important Links
-- Github Repository: https://github.com/3dunoabraham/csscss
-- Documentation: https://app.gitbook.com/csscss
+- Demo: https://3dunoabraham.github.io/csscss/
+- Documentation: https://gitbook.com/csscss
 - Website: https://csscss.vercel.app/
 
 
