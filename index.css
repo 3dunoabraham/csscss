@@ -1167,10 +1167,10 @@ body { font-family: "Inter"; }
 
 /* Each state */
 
-.tx-link:visited { color: var(--tx-link-visited); }
-.tx-link:hover { color: var(--tx-link-hover); }
-.tx-link:focus { color: var(--tx-link-focus); }
-.tx-link:hover, a:active { color: var(--tx-link-hover) }
+.tx-link:visited { color: var(--tx-link-visited) !important; }
+.tx-link:hover { color: var(--tx-link-hover) !important; }
+.tx-link:focus { color: var(--tx-link-focus) !important; }
+.tx-link:hover, a:active { color: var(--tx-link-hover) !important; }
 
 .tx-hov-link:hover { color: var(--tx-link); }
 
