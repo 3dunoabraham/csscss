@@ -1,7 +1,7 @@
 {
   "name": "csscss",
-  "version": "1.0.8",
-  "description": "utility-first CSS framework",
+  "version": "1.0.9",
+  "description": "Cheat Sheet Strategy for Cascading Style Sheets",
   "main": "index.css",
   "repository": "https://github.com/3dunoabraham/csscss/",
   "homepage": "https://csscss.vercel.app/",
