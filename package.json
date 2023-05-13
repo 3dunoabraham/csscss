@@ -8,6 +8,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Abraham Duno",
+  "author": "Abraham Duno <tresduno@gmail.com> (https://duno.vercel.app/)",
+  "keywords": [
+    "css",
+    "framework"
+  ],
   "license": "MIT"
 }
