@@ -366,6 +366,7 @@
 
 /* ------------------------------------------ FILTERS ------------------------------------------ */
 .nosat {filter: saturate(0);}
+.nolight {filter: brightness(0);}.nobright {filter: brightness(0);}
 .invert{filter: invert(1)}.bright-1000{filter: brightness(10)}
 .blur-1 {filter: blur(1px)}.blur-2 {filter: blur(2px)}.blur-3 {filter: blur(3px)}.blur-4 {filter: blur(4px)}
 .blur-5 {filter: blur(5px)}.blur-6 {filter: blur(6px)}.blur-7 {filter: blur(7px)}.blur-8 {filter: blur(8px)}
