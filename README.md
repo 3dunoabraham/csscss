@@ -5,7 +5,7 @@ A collection of consistent CSS classes used for fast and efficient layout crafti
 
 ## Important Links
 - Demo: https://3dunoabraham.github.io/csscss/
-- Documentation: https://gitbook.com/csscss
+- Documentation: https://3duno.gitbook.io/csscss/
 - Website: https://csscss.vercel.app/
 
 
