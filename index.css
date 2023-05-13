@@ -487,6 +487,7 @@
 
 
 /* BORDER RADIUS */
+.bord-children-2 * { border-radius: 2px;}
 /* ALL */
 .bord-r-5{border-radius: 5px}.bord-r-8{border-radius: 8px}.bord-r-12{border-radius: 12px} 
 .bord-r-10{border-radius: 10px}.bord-r-15{border-radius: 15px}.bord-r-25{border-radius: 25px}
