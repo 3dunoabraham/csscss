@@ -1128,6 +1128,10 @@ body { font-family: "Inter"; }
 
   --tx-error: #B91C1C;
   --tx-link: #026AA2;
+  --tx-link-visited: #026AA2;
+  --tx-link-hover: #026AA2;
+  --tx-link-focus: #026AA2;
+  --tx-link-hover: #026AA2;
 
   --border-faded: #D0D5DD;
 }
@@ -1158,6 +1162,15 @@ body { font-family: "Inter"; }
 .tx-hov-primary:hover { color: var(--primary); }
 .tx-link { color: var(--tx-link); }
 .tx-muted { color: var(--tx-muted); }
+
+.tx-link { color: var(--tx-link); }
+
+/* Each state */
+
+.tx-link:visited { color: var(--tx-link-visited); }
+.tx-link:hover { color: var(--tx-link-hover); }
+.tx-link:focus { color: var(--tx-link-focus); }
+.tx-link:hover, a:active { color: var(--tx-link-hover) }
 
 .tx-hov-link:hover { color: var(--tx-link); }
 
