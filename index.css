@@ -1114,6 +1114,8 @@ body { font-family: "Inter"; }
   --bg-main: #ffffff;
   --bg-muted: #F9FAFB;
   --bg-faded: #F5F7F6;
+  --bg-lowco: #d8d8d8;
+  --bg-link: #026AA2;
   
   --bg-contrast: #24292F;
 
@@ -1121,7 +1123,7 @@ body { font-family: "Inter"; }
   --tx-muted: #344054;
   --tx-faded: #667085;
   --tx-soft: #a7adba;
-  --tg-contrast: #24292F;
+  --tx-contrast: #eeeeee;
 
   --tx-error: #B91C1C;
   --tx-link: #026AA2;
@@ -1132,9 +1134,11 @@ body { font-family: "Inter"; }
 .bg-primary {
 	background: var(--primary);
 }
+.bg-link { background: var(--bg-link); }
 .bg-main { background: var(--bg-main); }
 .bg-muted { background: var(--bg-muted); }
 .bg-faded { background: var(--bg-faded); }
+.bg-lowco { background: var(--bg-lowco); }
 .bg-contrast { background: var(--bg-contrast); }
 .bg-faded-odd:nth-child(2n) { background: var(--bg-faded); }
 

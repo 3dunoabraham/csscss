@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-wJqM3qeh1Kj/iB+XcPmMSqdZSByOw2Q5CXzN5/5jvU9Y3qD3M52vlBjU6GvLoe54wW8iKjIb38DNGIf00m9Xrg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./index.css">
     <title>CSSCSS | DEMO</title>
 </head>
@@ -34,20 +33,20 @@
                 <div class="px-3 flex-center gap-1 Q_md_x">
                     <details class="pos-rel ">
                         <summary class="pointer opaci-chov--50 py-3 ">Art</summary>
-                        <div class="pos-abs py-4 bg-main bord-r-5 z-100 box-shadow-2-b px-3 w-min-200px">
+                        <div class="pos-abs py-4 bg-main bord-r-5 z-100 box-shadow-2-b  w-min-200px">
                             <div class="tx-main">
-                                <div class="py-1 tx-hov-link opaci-chov--50">
-                                    <div class=" py-1">option</div>
-                                    <div class="opaci-50">view a</div>
-                                </div>
-                                <div class="py-1 tx-hov-link opaci-chov--50">
-                                    <div class=" py-1">option</div>
-                                    <div class="opaci-50">view b</div>
-                                </div>
-                                <div class="py-1 opaci-chov--50">
-                                    <div class="py-1">Content</div>
-                                    <div class="opaci-50">view 1</div>
-                                </div>
+                                <a href="https://www.artstation.com/dunoabraham" class="py-1 px-3 tx-hov-link  mb-1 block tx-main nodeco" target="_blank">
+                                    <div class=" py-1">Artstation</div>
+                                    <div class="opaci-50">artstation.com/dunoabraham</div>
+                                </a>
+                                <a href="https://www.instagram.com/3duno/" class="py-1 px-3 tx-hov-link  mb-1 block tx-main nodeco" target="_blank">
+                                    <div class=" py-1">Instagram</div>
+                                    <div class="opaci-50">instagram.com/3duno/</div>
+                                </a>
+                                <a href="https://3duno.vercel.app/" class="py-1 px-3 tx-hov-link  mb-1 block tx-main nodeco" target="_blank">
+                                    <div class=" py-1">Website</div>
+                                    <div class="opaci-50">3duno.vercel.app/</div>
+                                </a>
 
                             </div>
                         </div>
@@ -172,29 +171,34 @@
                     <div class="flex-col flex-align-stretch w-100">
                         <div class="flex tab">
                             <div onclick="showTab(event, 'Overview')" 
-                                class="repoLink px-2 py-4 pointer opaci-chov--50" 
+                                class="repoLink px-2 py-4 pointer opaci-chov--50 flex gap-1"  
                             >
-                                Overview
+                                <div class="nosat opaci-25">🕮</div>
+                                <div>Overview</div>
                             </div>
                             <div onclick="showTab(event, 'Repositories')" 
-                                class="repoLink px-2 py-4 pointer opaci-chov--50" 
+                                class="repoLink px-2 py-4 pointer opaci-chov--50 flex gap-1"  
                             >
-                                Repositories
+                                <div class="nosat opaci-25">📘</div>
+                                <div>Repositories</div>
                             </div>
                             <div onclick="showTab(event, 'Projects')" 
-                                class="repoLink px-2 py-4 pointer opaci-chov--50" 
+                                class="repoLink px-2 py-4 pointer opaci-chov--50 flex gap-1"  
                             >
-                                Projects
+                                <div class="nosat opaci-25">🔖</div>
+                                <div>Projects</div>
                             </div>
                             <div onclick="showTab(event, 'Packages')" 
-                                class="repoLink px-2 py-4 pointer opaci-chov--50 Q_sm_x" 
+                                class="repoLink px-2 py-4 pointer opaci-chov--50 Q_sm_x flex gap-1"  
                             >
-                                Packages
+                                <div class="nosat opaci-25">📦</div>
+                                <div>Packages</div>
                             </div>
                             <div onclick="showTab(event, 'Stars')" 
-                                class="repoLink px-2 py-4 pointer opaci-chov--50 " 
+                                class="repoLink px-2 py-4 pointer opaci-chov--50  flex gap-1"  
                             >
-                                Stars
+                                <div class="nosat opaci-25">⭐</div>
+                                <div>Stars</div>
                             </div>
                         </div>
                     </div>
@@ -221,7 +225,7 @@
                                 <div class="flex flex-align-stretch gap-2 Q_xs_flex-col">
                                     <div class="flex-1 border-lgrey pa-2 bord-r-5">
                                         <div class="flex">
-                                            <div class="px-1 pt-1 nosat opaci-50"> 📖</div>
+                                            <div class="px-1 pt-1 nosat opaci-25"> 📖</div>
                                             <a href="/" class="nodeco py-1">
                                                 CSSCSS
                                             </a>
@@ -235,7 +239,7 @@
                                     </div>
                                     <div class="flex-1 border-lgrey pa-2 bord-r-5">
                                         <div class="flex">
-                                            <div class="px-1 pt-1 nosat opaci-50"> 📖</div>
+                                            <div class="px-1 pt-1 nosat opaci-25"> 📖</div>
                                             <a href="/" class="nodeco py-1">
                                                 Thrue
                                             </a>
@@ -252,7 +256,7 @@
 
                                     <div class="flex-1 border-lgrey pa-2 bord-r-5">
                                         <div class="flex">
-                                            <div class="px-1 pt-1 nosat opaci-50"> 📖</div>
+                                            <div class="px-1 pt-1 nosat opaci-25"> 📖</div>
                                             <a href="/" class="nodeco py-1">
                                                 GTA ByteCity
                                             </a>
@@ -266,7 +270,7 @@
                                     </div>
                                     <div class="flex-1 border-lgrey pa-2 bord-r-5">
                                         <div class="flex">
-                                            <div class="px-1 pt-1 nosat opaci-50"> 📖</div>
+                                            <div class="px-1 pt-1 nosat opaci-25"> 📖</div>
                                             <a href="/" class="nodeco py-1">
                                                 Guacamisland
                                             </a>
@@ -283,7 +287,7 @@
                                 <div class="flex flex-align-stretch gap-2 Q_xs_flex-col">
                                     <div class="flex-1 border-lgrey pa-2 bord-r-5">
                                         <div class="flex">
-                                            <div class="px-1 pt-1 nosat opaci-50"> 📖</div>
+                                            <div class="px-1 pt-1 nosat opaci-25"> 📖</div>
                                             <a href="https://openfarm-pi.vercel.app/" class="nodeco py-1">
                                                 Open Farm
                                             </a>
@@ -298,7 +302,7 @@
                                     </div>
                                     <div class="flex-1 border-lgrey pa-2 bord-r-5">
                                         <div class="flex">
-                                            <div class="px-1 pt-1 nosat opaci-50"> 📖</div>
+                                            <div class="px-1 pt-1 nosat opaci-25"> 📖</div>
                                             <a href="/" class="nodeco py-1">
                                                 NGirl
                                             </a>
@@ -312,9 +316,118 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="pt-8">
+                                <div class="tx-muted">1,269 contributions in the last year</div>
+                                <div class="h-min-150px border-lgrey bord-r-t-5 my-3 pa-2 flex">
+                                    <div class="flex-col flex-align-stretch flex-1 tx-xsm tx-muted tx-bold-3">
+                                        <div class="flex flex-justify-around">
+                                            <div>Jan</div>
+                                            <div>Feb</div>
+                                            <div>Mar</div>
+                                            <div>Apr</div>
+                                        </div>
+                                        <div class="flex-col gap-1 flex-1">
+                                            <div class="flex gap-1">
+                                                <div class="bg-faded pa-1"></div><div class="bg-green-50 pa-1"></div><div class="bg-green-25 pa-1"></div>
+                                                <div class="bg-green-50 pa-1"></div><div class="bg-faded pa-1"></div><div class="bg-green-25 pa-1"></div>
+                                                <div class="bg-faded pa-1"></div><div class="_ddg pa-1"></div><div class="bg-green-25 pa-1"></div>
+                                            </div>
+                                            <div class="flex gap-1">
+                                                <div class="bg-green-50 pa-1"></div><div class="bg-faded pa-1"></div><div class="_ddg pa-1"></div>
+                                                <div class="bg-green-50 pa-1"></div><div class="_ddg pa-1"></div><div class="bg-faded pa-1"></div>
+                                                <div class="bg-green-25 pa-1"></div><div class="bg-faded pa-1"></div><div class="bg-faded pa-1"></div>
+                                            </div>
+                                        </div>
+                                        <div class="flex">
+                                            <div class="flex-1">Learn how we count contributions</div>
+                                            <div class="flex-center gap-1">
+                                                <div>Less</div>
+                                                <div class="bg-faded pa-1"></div><div class="bg-green-25 pa-1"></div>
+                                                <div class="bg-green-50 pa-1"></div><div class="_ddg pa-1"></div>
+                                                <div>More</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="h-min-150px flex gap-3 mt-6">
+                                    <div class="flex-1 ">
+                                        <div class="tx-muted ">Contribution activity</div>
+                                        <div class="pt-5 flex gap-3">
+                                            <div class="tx-bold-5 tx-xsm tx-faded">May 2023</div>
+                                            <div class="flex-1">
+                                                <hr class="opaci-20" />
+                                            </div>
+                                        </div>
+                                        <div class="pl-3">
+                                            <div class="border-lgrey-l pl-3">
+                                                <div class="flex-center flex-justify-start py-3"
+                                                    style="transform: translateX(-30px);"
+                                                >
+                                                    <div class="bg-lowco nosat pa-2 bord-r-100p">
+                                                        <div class=" nobright opaci-50">🕮</div>
+                                                    </div>
+                                                    <div class="py-2 pl-2">Created 89 commits in 8 repositories</div>
+                                                </div>
+                                                <div class="flex-center flex-justify-start py-3"
+                                                    style="transform: translateX(-30px);"
+                                                >
+                                                    <div class="bg-lowco nosat pa-2 bord-r-100p">
+                                                        <div class=" nobright opaci-50">🕮</div>
+                                                    </div>
+                                                    <div class="py-2 pl-2">
+                                                        <div>Created 2 repositories</div>
+                                                        <div>
+                                                            <div class="flex">
+                                                                <div class="px-1 pt-1 nosat opaci-25"> 📖</div>
+                                                                <a href="/" class="nodeco py-1">
+                                                                    CSSCSS
+                                                                </a>
+                                                            </div>
+                                                            <div class="flex">
+                                                                <div class="px-1 pt-1 nosat opaci-25"> 📖</div>
+                                                                <a href="/" class="nodeco py-1">
+                                                                    GTA ByteCity
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="flex-center flex-justify-start py-3"
+                                                    style="transform: translateX(-30px);"
+                                                >
+                                                    <div class="bg-lowco nosat pa-2 bord-r-100p">
+                                                        <div class=" nobright opaci-50">🕮</div>
+                                                    </div>
+                                                    <div class="py-2 pl-2">Created 11 commits in 1 repository</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="w-min-100px">
+                                        <div class="bg-link tx-contrast px-3 py-2 bord-r-5 clickble tx-xsm">2023</div>
+                                        <div class="pa-3 py-2 tx-xsm tx-faded opaci-chov--50">2022</div>
+                                        <div class="pa-3 py-2 tx-xsm tx-faded opaci-chov--50">2021</div>
+                                        <div class="pa-3 py-2 tx-xsm tx-faded opaci-chov--50">2020</div>
+                                    </div>
+                                </div>
+                                <div class="py-3 mb-3">
+                                    <div class="tx-link border-lgrey tx-center py-2 bord-r-5 opaci-chov--50">
+                                        Show more activity
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class=" tx-xsm tx-faded">
+                                        Seeing something unexpected? Take a look at the
+                                        <a target="_blank" href="/">GitHub profile guide</a>
+                                        .
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
                         </div>
                           
-                        <div id="Projects" class="tabcontent">
+                        <div id="Projects" class="tabcontent pt-3" >
                             <h1 class="tx-bold-2 mt-0">List of Projects</h1>
                             <!-- <h2>Tab 2 Content</h2>
                             <p>This is the content for Tab 2.</p> -->
@@ -376,7 +489,7 @@
                             </ul>
                         </div>
                           
-                        <div id="Stars" class="tabcontent">
+                        <div id="Stars" class="tabcontent pt-3">
                             <div class="">
                                 <h2 class="tx-bold-5 tx-center">There aren't any stars yet</h2>
                                 <a href="https://duno.vercel.app/" target="_blank"
@@ -387,7 +500,7 @@
                             </div>
                         </div>
                           
-                        <div id="Packages" class="tabcontent">
+                        <div id="Packages" class="tabcontent pt-3">
                             <h2>Packages Tab</h2>
                             <p>This is the content for Tab 1.</p>
                         </div>
