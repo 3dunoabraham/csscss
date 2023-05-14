@@ -1,5 +1,5 @@
 # CSSCSS
-#### Utility-first CSS framework.
+#### Cheat Sheet Strategy for Cascading Style Sheets 
 
 A collection of consistent CSS classes used for fast and efficient layout crafting directly into the HTML. The class names are intuitively designed to resemble CSS properties, making them easy to remember and use effectively.
 
