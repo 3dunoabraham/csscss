@@ -957,7 +957,7 @@ body { font-family: "Inter"; }
 
 :root {
   --color-blue: #0074D9;
-  --color-blue-dark: #004267;
+  --color-blue-dark: #24292F;
   --color-blue-sat: #1193E8;
   --color-blue-desat: #9CBEDB;
   --color-blue-light: #E8F3FF;
@@ -1007,11 +1007,11 @@ body { font-family: "Inter"; }
 
 
 :root {  
-  --primary-dark: var(--color-emerson-dark);
-  --primary-sat: var(--color-emerson-sat);
-  --primary:  var(--color-emerson);
-  --primary-desat: var(--color-emerson-desat);
-  --primary-light: var(--color-emerson-light);
+  --primary-dark: var(--color-blue-dark);
+  --primary-sat: var(--color-blue-sat);
+  --primary:  var(--color-blue);
+  --primary-desat: var(--color-blue-desat);
+  --primary-light: var(--color-blue-light);
 
   --secondary-dark: var(--color-purple-dark);
   --secondary-sat: var(--color-purple-sat);
@@ -1029,13 +1029,23 @@ body { font-family: "Inter"; }
   --bg-main: #ffffff;
   --bg-muted: #F9FAFB;
   --bg-faded: #F5F7F6;
+  --bg-lowco: #d8d8d8;
+  --bg-link: #026AA2;
+  
+  --bg-contrast: #24292F;
 
   --tx-main: #101828;
   --tx-muted: #344054;
   --tx-faded: #667085;
+  --tx-soft: #a7adba;
+  --tx-contrast: #eeeeee;
 
   --tx-error: #B91C1C;
   --tx-link: #026AA2;
+  --tx-link-visited: #026AA2;
+  --tx-link-hover: #026AA2;
+  --tx-link-focus: #026AA2;
+  --tx-link-hover: #026AA2;
 
   --border-faded: #D0D5DD;
 }
